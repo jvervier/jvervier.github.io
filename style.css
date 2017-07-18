@@ -12,8 +12,16 @@ ul {
 
 li {
 	float:left;
-	height: 120px;
+	min-height: 120px;
 	width: 100%;
 	border: 1px solid black;
 	margin: 0px;
+	padding: 5px;
+}
+
+footer {
+	float:left;
+	min-height: 50px;
+	width: 100%;
+	text-align: center;
 }
