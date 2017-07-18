@@ -1,9 +1,13 @@
 body {
 	font-family: "arial", Serif;
+	background-color: #BDBDBD;
+	color: white;
 }
 
 ul {
 	list-style: none;
+	padding: 0px;
+	margin: 0px;
 }
 
 li {
@@ -11,4 +15,5 @@ li {
 	height: 120px;
 	width: 100%;
 	border: 1px solid black;
+	margin: 0px;
 }
