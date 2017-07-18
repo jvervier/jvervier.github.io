@@ -26,17 +26,6 @@ footer {
 	text-align: center;
 }
 
-@keyframes h2Move {
-	from {}
-	to {color: red; margin-left:20px;}
-}
-
-@-webkit-keyframes h2Move {
-	from {}
-	to {color: red; margin-left:20px;}
-}
-
-h2:hover {
-	animation-name: h2Move;
-	-webkit-animation-name: h2Move;
+.photography {
+	background-image: url("img/photography.png");
 }
