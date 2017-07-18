@@ -26,6 +26,8 @@ footer {
 	text-align: center;
 }
 
-.photography {
+#photography {
 	background-image: url("img/photography.png");
+	background-repeat: no-repeat;
+	background-position: left top;
 }
