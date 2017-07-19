@@ -1,7 +1,8 @@
 body {
 	font-family: "arial", Serif;
-	background-color: #BDBDBD;
+	background-color: #CEE3F6;
 	color: white;
+	text-shadow: 2px 2px 6px #000000;
 }
 
 ul {
@@ -14,7 +15,6 @@ li {
 	float:left;
 	min-height: 120px;
 	width: 100%;
-	border: 1px solid black;
 	margin: 0px;
 	padding: 5px;
 }
@@ -30,10 +30,19 @@ h2 span {
 	display: none;
 }
 
+h2 span img {
+	height: 18px;
+	margin-right: 5px;
+}
+
+footer img {
+	height: 20px;
+}
+
 #photography {
-	background-image: url("img/photography.png");
+	/*background-image: url("img/photography.png");
 	background-repeat: no-repeat;
-	background-position: left top;
+	background-position: left top;*/
 }
 
 #titleSection {
@@ -196,5 +205,7 @@ h2 span {
 
 .titleSection:hover {
 	opacity: 0.5;
-	background-color: #6E6E6E;
+	background-color: white;
+	color: #0080FF;
+	text-shadow: none;
 }
