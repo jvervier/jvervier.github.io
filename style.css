@@ -1,8 +1,5 @@
 body {
 	font-family: "arial", Serif;
-	background-color: #CEE3F6;
-	color: white;
-	text-shadow: 2px 2px 6px #000000;
 }
 
 ul {
@@ -13,10 +10,11 @@ ul {
 
 li {
 	float:left;
-	min-height: 120px;
+	min-height: 130px;
 	width: 100%;
 	margin: 0px;
 	padding: 5px;
+	border-top: 0.5px solid black;
 }
 
 footer {
@@ -24,6 +22,10 @@ footer {
 	min-height: 50px;
 	width: 100%;
 	text-align: center;
+}
+
+h2 {
+	margin-top: 30px;
 }
 
 h2 span {
@@ -45,10 +47,12 @@ footer img {
 	background-position: left top;*/
 }
 
-#titleSection {
-	position: relative;
-	height: 20px;
-	width: 300px;
+#contact {
+
+}
+
+#contact h2 {
+	margin-top: 10px;
 }
 
 @keyframes bounce {
