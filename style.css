@@ -229,6 +229,32 @@ article {
   }
 }
 
+@keyframes flipInY {
+  from {
+    transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+
+  40% {
+    transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+    animation-timing-function: ease-in;
+  }
+
+  60% {
+    transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+    opacity: 1;
+  }
+
+  80% {
+    transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+  }
+
+  to {
+    transform: perspective(400px);
+  }
+}
+
 .animated {
   animation-duration: 1s;
   animation-fill-mode: both;
@@ -236,6 +262,7 @@ article {
 
 .titleSection:hover h2 {
   animation-name: bounce;
+  color: #9E9E9E;
 }
 
 .titleSection:hover h2 span {
@@ -245,11 +272,9 @@ article {
 
 .titleSection:hover article {
 	display: inline;
+	animation-name: bounceIn;
 }
 
 .titleSection:hover {
-	opacity: 0.5;
 	background-color: white;
-	color: #0080FF;
-	text-shadow: none;
 }
