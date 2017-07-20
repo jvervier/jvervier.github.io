@@ -2,13 +2,7 @@ body {
 	font-family: "arial", Serif;
 }
 
-ul {
-	list-style: none;
-	padding: 0px;
-	margin: 0px;
-}
-
-li {
+section {
 	float:left;
 	min-height: 130px;
 	width: 100%;
@@ -39,6 +33,11 @@ h2 span img {
 
 footer img {
 	height: 20px;
+}
+
+article {
+	display: none;
+	position: relative;
 }
 
 #photography {
@@ -242,6 +241,10 @@ footer img {
 .titleSection:hover h2 span {
   display: inline;
   animation-name: bounceIn;
+}
+
+.titleSection:hover article {
+	display: inline;
 }
 
 .titleSection:hover {
