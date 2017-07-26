@@ -40,6 +40,28 @@ article {
 	position: relative;
 }
 
+header {
+	height: 400px;
+}
+
+header h1 {
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header h2 {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header p {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 #photography {
 	/*background-image: url("img/photography.png");
 	background-repeat: no-repeat;
