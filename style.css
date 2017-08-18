@@ -32,9 +32,29 @@ nav {
 	position: fixed;
 	right: 0px;
 	top: 0px;
-	width: 50px;
-	height: 50px;
-	background-color: red;
+	text-align:right;
+}
+
+nav #menu:hover ul {
+	display: inline;
+}
+
+nav p {
+	display: none;
+}
+
+nav ul {
+	display: none;
+	list-style: none;
+	padding: 0px;
+}
+
+nav ul li {
+	margin: 0px;
+}
+
+nav ul li a:hover {
+	color: red;
 }
 
 h2 {
