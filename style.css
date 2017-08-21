@@ -1,5 +1,10 @@
+@font-face {
+    font-family: typewriter;
+    src: url(font/ATypewriterForMe.ttf);
+}
+
 body {
-	font-family: "arial", Serif;
+	font-family: "typewriter";
 }
 
 header {
@@ -9,6 +14,8 @@ header {
 	margin: 0;
 	max-width: none;
 	height: 100vh;
+	background-image: url(img/headerbackground.jpg);
+	background-position: center center;
 }
 
 section {
@@ -17,7 +24,36 @@ section {
 	width: 99%;
 	margin: 0px;
 	padding: 5px;
-	border-top: 0.5px solid black;
+}
+
+.section1 {
+	background-color: #F5F6CE;
+	border-left: 10px solid #F6F791;
+	min-height:500px;
+}
+
+.section2 {
+	background-color: #FBEFF8;
+	border-left: 10px solid #FC80DD;
+	min-height:500px;
+}
+
+.section3 {
+	background-color: #F2E0F7;
+	border-left: 10px solid #DF88F7;
+	min-height:500px;
+}
+
+.section4 {
+	background-color: #E0E6F8;
+	border-left: 10px solid #7898F7;
+	min-height:500px;
+}
+
+.section5 {
+	background-color: #E0F8EC;
+	border-left: 10px solid #4BC98A;
+	min-height:500px;
 }
 
 footer {
@@ -72,7 +108,7 @@ header h1 {
 }
 
 header h2 {
-	width: 400px;
+	width: 600px;
 	text-align:center;
 	margin-left: auto;
 	margin-right: auto;
