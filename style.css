@@ -16,12 +16,23 @@ header {
 	height: 100vh;
 	background-image: url(img/headerbackground.jpg);
 	background-position: center center;
+	animation-name: popin;
+	animation-duration: 1s; 
+}
+
+@keyframes popin {
+	0% {
+		transform: scale(.1);
+	}
+	100% {
+		transform: scale(1);
+	}
 }
 
 section {
 	float:left;
 	min-height: 130px;
-	width: 99%;
+	width: 48.6%;
 	margin: 0px;
 	padding: 5px;
 }
@@ -30,6 +41,7 @@ section {
 	background-color: #F5F6CE;
 	border-left: 10px solid #F6F791;
 	min-height:500px;
+	width: 99%;
 }
 
 .section2 {
@@ -68,6 +80,17 @@ nav {
 	right: 0px;
 	top: 0px;
 	text-align:right;
+	animation-name: fadein;
+	animation-duration: 5s; 
+}
+
+@keyframes fadein {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 100%;
+	}
 }
 
 nav #menu:hover ul {
@@ -182,6 +205,7 @@ article {
 	position: relative;
 	float: left;
 	margin-top: 5px;
+	border-radius: 5px 5px 5px 5px;
 }
 
 #contact form textarea {
@@ -190,6 +214,7 @@ article {
 	width: 300px;
 	height: 150px;
 	margin-top: 5px;
+	border-radius: 5px 5px 5px 5px;
 }
 
 #contact form button {
@@ -197,6 +222,7 @@ article {
 	position: relative;
 	margin-left: 87%;
 	margin-top: 5px;
+	border-radius: 5px 5px 5px 5px;
 }
 
 @keyframes bounce {
