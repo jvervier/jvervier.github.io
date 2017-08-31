@@ -32,40 +32,38 @@ header {
 section {
 	float:left;
 	min-height: 130px;
-	width: 48.6%;
+	width: 48%;
 	margin: 0px;
 	padding: 5px;
 }
 
+section h2 {
+	position: relative;
+	margin:30px;
+	float:right;
+}
+
 .section1 {
-	background-color: #F5F6CE;
-	border-left: 10px solid #F6F791;
-	min-height:500px;
+	border-bottom: 1px solid #7898F7;
 	width: 99%;
 }
 
 .section2 {
-	background-color: #FBEFF8;
-	border-left: 10px solid #FC80DD;
-	min-height:500px;
+	min-height:420px;
 }
 
 .section3 {
-	background-color: #F2E0F7;
-	border-left: 10px solid #DF88F7;
-	min-height:500px;
+	min-height:420px;
 }
 
 .section4 {
-	background-color: #E0E6F8;
-	border-left: 10px solid #7898F7;
-	min-height:500px;
+	border-top: 1px solid #7898F7;
+	min-height:420px;
 }
 
 .section5 {
-	background-color: #E0F8EC;
-	border-left: 10px solid #4BC98A;
-	min-height:500px;
+	border-top: 1px solid #7898F7;
+	min-height:420px;
 }
 
 footer {
