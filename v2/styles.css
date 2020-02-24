@@ -50,12 +50,13 @@ body {
 #iconlist {
     width: 37%;
     height: 50vh;
-    background-color: #034f84;
+    background-color: #ffffff;
     padding: 10px;
     flex-grow: 1;
     background-image: url("img/desk.jpg");
     background-position: center;
     background-size: 100vw;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,9 +92,10 @@ body {
 #other-contact {
     width: 45%;
     flex-grow: 1;
-    background-color: #92a8d1;
+    background-color: #f7cac9;
     background-image: url("img/handshake.jpg");
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 #profil-picture {
@@ -104,11 +106,16 @@ body {
 .informatique {
     background-image: url("img/computer.jpg");
     background-position: center;
+    color: #ffffff;
 }
 
 .photographie {
     background-image: url("img/photo.jpg");
     background-position: right;
+    color: #ffffff;
+    text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000;
 }
 
 .escalade {
@@ -131,4 +138,18 @@ body {
 
 .watermark {
     font-size: 10px;
+}
+
+.icon-list {
+    width: 100%;
+    height: 20vh;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.icon-list img {
+    height: 100%;
+    margin-top:10px;
 }
