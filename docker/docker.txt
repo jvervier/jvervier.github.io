@@ -1,0 +1,3 @@
+docker build -t gronimo_website .
+
+docker run -p 8082:8082 -itd --name gronimo_website_page gronimo_website
